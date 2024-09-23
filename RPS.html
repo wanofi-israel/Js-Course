@@ -13,10 +13,15 @@
         <div class="rps-container">
             <button class="btn-rps" value="Rock" id="btn-rps">✊</button>
             <button class="btn-rps" value="Paper" id="btn-rps">🖐️</button>
-            <button class="btn-rps" value="Scissora" id="btn-rps">✌️</button>
+            <button class="btn-rps" value="Scissors" id="btn-rps">✌️</button>
         </div>
-        <div class="rps-reset-container">
-            <button class="btn-rps" id="btn-rps-reset" value="Reset">🔴</button>
+        <div class="rps-result-container">
+            <div class="score-container" id="score-container"></div>
+            <div class="choice-container" id="choice-container"></div>
+            <div class="result-container" id="result-container"></div>
+        </div>
+        <div class="rps-reset-container" onclick="endGame()">
+            <button class="btn-rps-reset" id="btn-rps-reset" value="Reset">🔴</button>
         </div>
     </div>
 

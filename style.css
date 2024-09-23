@@ -112,15 +112,21 @@ label{
     justify-content: center;
     align-items: center;
     gap:1rem;
+    color: #f2f2f2;
+    font-size: x-large;
 }
-
-.rps-container{
+.rps-result-container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.rps-container,.score-container,.result-container,.choice-conatiner{
     display: flex;
     justify-content: center;
     gap: 1rem;
     align-items: center;
 }
-.btn-rps{
+.btn-rps,.btn-rps-reset{
     width: 100px;
     height: 100px;
     display: flex;
