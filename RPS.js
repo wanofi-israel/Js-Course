@@ -52,6 +52,7 @@ const endGame = () => {
     scoreContainer.innerHTML = "";
     choiceContainer.innerHTML = "";
     resultContainer.innerHTML = "";
+    totalScore["playerScore"]=0
 };
 rps.forEach((btn) => {
     btn.onclick = () => {
